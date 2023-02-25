@@ -18,7 +18,7 @@ const AddSubscription = () => {
             subscriptionType
         }
 
-        fetch('/addSubscription', {
+        fetch('https://dark-gold-lovebird-cuff.cyclic.app/addSubscription', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

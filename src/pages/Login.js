@@ -7,7 +7,7 @@ const Login = () => {
     const handleSubmit = (event) => {
         event.preventDefault()
         // TODO: handle login submission
-        fetch('/signinadmin',
+        fetch('https://dark-gold-lovebird-cuff.cyclic.app/signinadmin',
             {
                 method: 'POST',
                 headers: {

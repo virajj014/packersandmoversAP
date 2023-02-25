@@ -5,7 +5,7 @@ const ViewSubscriptions = () => {
     const [subs, setSubs] = useState([])
     const getsubs = () => {
         let token = localStorage.getItem('token')
-        fetch('/getsubs', {
+        fetch('https://dark-gold-lovebird-cuff.cyclic.app/getsubs', {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
