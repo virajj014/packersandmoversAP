@@ -21,7 +21,8 @@ const AddSubscription = () => {
         fetch('https://dark-gold-lovebird-cuff.cyclic.app/addSubscription', {
             method: 'POST',
             headers: {
-                'Content-Type': 'application/json'
+                'Content-Type': 'application/json',
+                'Authorization': 'Bearer ' + localStorage.getItem('token')
             },
             body: JSON.stringify(data)
         })
@@ -33,6 +34,9 @@ const AddSubscription = () => {
                 } else {
                     alert('Something went wrong')
                 }
+            })
+            .catch(err => {
+                console.log(err)
             })
     }
     return (
