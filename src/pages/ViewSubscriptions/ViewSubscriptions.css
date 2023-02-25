@@ -1,0 +1,28 @@
+.substableout {
+    width: 100%;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.substableout table {
+    background-color: white;
+    width: 90%;
+}
+
+
+.substableout table tr {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+.substableout table tr td{
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
