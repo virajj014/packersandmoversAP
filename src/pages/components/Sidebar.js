@@ -9,9 +9,9 @@ const Sidebar = ({ active }) => {
     return (
         <div className='sidebar'>
             <h1>Packers & Movers</h1>
-            <Link to='/dashboard' style={{ textDecoration: 'none', width: '100%' }}>
+            {/* <Link to='/dashboard' style={{ textDecoration: 'none', width: '100%' }}>
                 <p>Dashboard</p>
-            </Link>
+            </Link> */}
             <Link to='/viewsubscriptions' style={{ textDecoration: 'none', width: '100%' }}>
                 <p>View Subscriptions</p>
             </Link>
