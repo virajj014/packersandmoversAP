@@ -31,6 +31,10 @@ const Login = () => {
                     alert("Login Failed")
                 }
             })
+            .catch(err => {
+                console.log(err)
+                alert("Login Failed")
+            })
     }
 
     return (
